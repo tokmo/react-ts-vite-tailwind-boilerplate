@@ -30,7 +30,7 @@ export default tseslint.config(
         "warn",
         { allowConstantExport: true },
       ],
-      "prettier/prettier": "error", // Active la règle Prettier
+      "prettier/prettier": ["error", { endOfLine: "auto" }],
       "arrow-body-style": "off",
       "prefer-arrow-callback": "off",
     },
